@@ -35,7 +35,7 @@ contactForm.addEventListener('submit', async (e) => {
 
     try{
 
-        const response = await fetch('http://localhost:5000/contact', {
+        const response = await fetch('https://portfolio-backend-8na5.onrender.com/contact', {
 
             method: 'POST',
 
